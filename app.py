@@ -5,6 +5,10 @@ import pickle
 from nltk.stem import WordNetLemmatizer
 import os
 from nltk.corpus import stopwords
+import nltk
+
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 
 def preprocess_text(text):
